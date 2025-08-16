@@ -1,0 +1,513 @@
+body
+{
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.flex{
+    display: flex;
+}
+.primary-description-color
+{
+    color: #000000;
+    opacity: 50%;
+}
+
+/* nav */
+.navigation{
+    margin-top: 1.875rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu{
+    gap: 3.125rem;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+}
+#home
+{
+    color: black;
+    font-weight: bold;
+}
+.secondary-text-color{
+    color: gray;
+}
+
+/* nav-for-mobile-devices */
+@media screen and (max-width: 576px) {
+ 
+    .brand-logo
+    {
+        width: 63px;
+        height: 38px;
+        margin-left: 25px;
+    }
+    .responsive-hidden{
+        display: none;
+        justify-content: center;
+    }
+    .cart{
+        margin-right: 25px;
+    }
+}
+
+.hero-section{
+    margin-top: 8.125rem;
+    justify-content: space-between;
+    align-items: end;
+}
+.hero-title
+{
+    font-size: 4.0625rem;
+    font-weight: bold;
+    margin-bottom: -0.3125rem;
+}
+span{
+    color: #E95A08;
+}
+.hero-description{
+    font-size: 1.375rem;
+    margin-bottom: -0.3125rem;
+}
+.hero-flower{
+    width: 35.625rem;
+    height: 22.1875rem;
+}
+
+@media screen and (max-width: 576px) {
+    .hero-section{
+       flex-direction: column-reverse;
+    }
+   .hero-flower{
+    width: 100%;
+    height: 250px;
+   }
+   .hero-title{
+    font-size: 1.5rem;
+    margin-top: 45px;
+    margin-left: 25px;
+   }
+   .hero-description{
+    font-size: 14px;
+    margin: 25px;
+   }
+}
+
+.our-plants
+{
+    margin-top: 8.125rem;
+    text-align: center;
+}
+.plant-title
+{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: -1.25rem;
+}
+.plant-description
+{
+    color: grey;
+    font-size: 1.375rem;
+    width: 54.375rem;
+    margin: 2.5rem auto;
+}
+.plant-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1.875rem 1.25rem;
+}
+.plant-card
+{
+    text-align: center;
+}
+.flower-name,.price
+{
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: 1.25rem;
+}
+.price{
+    font-weight: 700;
+    margin-top: -0.625rem ;
+    margin-bottom: 1.25rem;
+}
+.add-to-cart
+{
+    width: 16.875rem;
+    height:3.125rem;
+    background-color: #E95A08;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+
+/*  */
+@media screen and (max-width:576px) {
+.our-plants
+{
+    margin: 50px 25px;
+    max-width: 576px;
+}
+.plant-title
+{
+    font-size: 24px;
+    margin-bottom: -20px;
+}
+.plant-description
+{
+    font-size: 14px;
+    width: 90%;
+}
+    .plant-container
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 26px 20px;
+        width: 100%;
+    }
+    .plant-card
+    {
+        text-align: center;
+    }
+    .sample-flower
+    {
+        max-width: 240px;
+        height: 300px;
+    }
+    .flower-name,.price
+    {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .price{
+        font-weight: 700;
+        margin-top: -10px ;
+        margin-bottom: 20px;
+    }
+    .add-to-cart
+    {
+        max-width: 240px;
+        height:40px;
+        font-size: 1rem;
+    }
+}
+
+
+
+/*  */
+.flower-lover
+{
+     margin: 6.25rem auto;
+}
+.store-container
+{
+    margin-top: -10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3.75rem;
+}
+.flower-store
+{
+    width: 33.75rem;
+    height: 37.25rem;
+    z-index: -1;
+}
+.plant-store-title
+{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 1.875rem;
+}
+.description-list li
+{
+    font-size: 1.375rem;
+    color: gray;
+    margin-top: 0.625rem;
+}
+
+.badge{
+
+    width: 17.875rem;
+    height: 17.875rem;
+    z-index: 1;
+    margin-left: 21.875rem;
+
+}
+
+@media screen and (max-width:576px) {
+    .store-container
+    {
+        display: block;
+        margin: auto 25px;
+    }
+    .flower-store
+    {
+        width: 100%;
+        height: 420px;
+    }
+.plant-store-title
+{
+    font-size: 24px;
+}
+.description-list li
+{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.badge
+{
+    display: none;
+}
+
+}
+
+
+.deals
+{
+    text-align: center;
+    margin: 8.125rem auto;
+}
+.deals-title
+{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: -1.25rem;
+}
+.deals-description
+{
+    font-size: 1.375rem;
+    width: 55.5rem;
+    margin: 2.8125rem auto;
+    color: grey;
+}
+.flowers-advertise
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bloom-container
+{
+    background-image: url('../assets/deal-bloom.png');
+}
+.ana-container
+{
+  background-image: url('../assets/deal-ana.png');
+}
+.zabo-container
+{
+    margin-top: 1.25rem;
+    background-image: url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    width: 47.0625rem;
+    height:26.1875rem;
+    border-radius: 0.875rem;
+}
+.bloom-container, .ana-container
+{
+    background-repeat: no-repeat;
+    width: 22.9375rem;
+    height: 12.4375rem;
+    border-radius: 0.875rem;
+    
+}
+.bloom,.ana, .shop-now{
+    padding-top: 3.75rem;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.9375rem;
+}
+.zabo{
+    padding-top: 8.75rem;
+    margin-bottom:0.9375rem;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.zabo-shop-now{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+}
+
+@media screen and (max-width:576px) {
+
+    .deals
+    {
+        text-align: center;
+        margin: 100px 25px;
+    }
+    .deals-title
+    {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .deals-description
+    {
+        font-size: 14px;
+        width: 90%;
+;
+    }
+
+    .flowers-advertise
+    {
+        display: block;
+    }
+    .bloom-container, .ana-container, .zabo-container
+    {
+        width: 100%;
+        height: 205px;
+        background-size: cover;
+    }
+    .zabo, .zabo-shop-now{
+        padding-top: 60px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+}
+
+
+/*  */
+.call-to-join
+{
+    text-align: center;
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95.625rem;
+    height: 33.3125rem;
+    margin-left: -12.5rem;
+}
+.action-container
+{
+    padding-top: 10rem;
+}
+.join-title
+{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+}
+#email
+{
+    width: 35.9375rem;
+    font-size: 1rem;
+    color: grey;
+    padding: 0.625rem;
+}
+.subscribe
+{
+    width: 11.5625rem;
+    height: 2.625rem;
+    font-size: 1rem;
+    padding: 0.625rem;
+    margin-left: -0.3125rem;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+}
+
+/* call - responsive */
+@media screen and (max-width:576px) {
+    .call-to-join
+    {
+        margin: 0 auto;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 275px;
+    }
+    .action-container
+{
+    padding-top: 65px;
+}
+.join-title
+{
+    font-size: 20px;
+}
+#email
+{
+    width: 220px;
+}
+.subscribe
+{
+    width: 100px;
+    height: 42px;
+    padding: 10px;
+}
+}
+
+footer{
+    margin:3.125rem auto;
+}
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap:4.6875rem;
+    color: grey;
+}
+.content
+{
+    width:22.5rem;
+}
+.links{
+    list-style: none;
+    margin-top: -30px;
+}
+.link-item
+{
+    text-decoration: none;
+    color: grey;
+}
+.links li{
+    margin-top: 1.875rem;
+}
+
+.contact-icon
+{
+    margin-left: 1.5rem;
+}
+
+/* footer responsive */
+
+@media screen and (max-width:576px) {
+    .footer-container{
+        display: block;
+    }
+    .content{
+        margin-left: 25px;
+    }
+    .content .brand-logo
+    {
+        width: 180px;
+        height: 110px;
+    }
+    .links
+    {
+        margin: 30px auto;
+        margin-left: -15px;
+    }
+}
+

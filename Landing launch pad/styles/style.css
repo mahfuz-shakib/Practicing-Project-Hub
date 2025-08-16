@@ -1,0 +1,257 @@
+/* body */
+body{
+    margin: 0 auto;
+    background-color:#eff6ff;
+}
+/* main{
+        
+} */
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+.section-position{
+    max-width: 1140px;
+    margin: 117px auto;
+    /* background-color: rgb(16, 248, 74); */
+}
+.primary-color{
+    color: rgba(78, 71, 255, 1);
+}
+.heading-text-color{
+    color: rgba(37, 36, 50, 1);
+}
+.btn-primary{
+    background-color:rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 12px 36px;
+}
+
+/* nav styling */
+
+.navigation
+{
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo-title{
+ font-weight: 900;   /* Black or Extra-Bold */
+ font-size: 35px;
+}
+.sign-up{
+    padding: 12px 36px;
+}
+
+header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    max-width: 905px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 155px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+/* action section styling */
+
+.action-container{
+    display: flex;
+    gap:220px;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+}
+.action-description{
+    color:rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+}
+.action-image{
+    width:403px;
+    height:328px;
+    border-radius: 48px;
+}
+
+/* statistic section styling */
+.stats-section{
+    border-radius: 24px;
+    background-color: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.stats-title
+{
+    font-weight: bold;
+    font-size: 38px;
+}
+.stats-container{
+    display: flex;
+    justify-content: center;
+    gap:158px;
+
+}
+.statistic{
+    font-weight: bold;
+    font-size: 80px;
+}
+.status{
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+/* user feedback section  styling */
+
+.feedback-section-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+}
+.user-feedback-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.user-card
+{
+    padding:24px;
+    background-color: white;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 1);
+}
+.user-message{
+    margin-top:-10px;
+    color: #1E1E1E;
+}
+.user-info{
+    display: flex;
+    gap: 12px;
+}
+.user-photo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+}
+.name-and-date{
+    display: block;
+    font-size: 16px;
+}
+.user-name,.date{
+    padding: 2px 0px;
+}
+.user-name{
+    color: #757575;
+    font-weight: bold;
+}
+.date{
+    color: #B3B3B3;
+    font-weight: normal;
+}
+
+
+
+/* contact section */
+
+.get-in-touch-title
+{
+    font-weight: bold;
+    font-size: 97px;
+}
+.contact-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input, textarea, .submit-button{
+    display: block;
+    width: 475px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 32px;
+    margin-top: 10px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+    
+}
+.submit-button
+{
+    width: 540px;
+}
+label{
+    font-size: 18px;
+   font-weight: 600;
+}
+.data-input{
+    margin-top:19px ;
+}
+
+.footer{
+    
+    background-color: white;
+}
+.footer-content
+{
+   text-align: center;
+    padding: 92px 492px;  
+}
+.logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+.footer-description
+{
+    color:#8987A1;
+    font-size: 16px;
+    margin-top: -48px;
+    padding-bottom: 10px;
+}
+.link
+{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.link-container ul li{
+    list-style: none;
+}
+.link-container ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
+.link-container ul li a:hover{
+    text-decoration: underline;
+    color:blue;
+}
