@@ -1,0 +1,64 @@
+body
+{
+    max-width: 1270px;
+    background-color: rgb(251, 242, 231);
+    margin: 0 auto;
+}
+.card-section
+{
+    text-align: center;
+}
+.card-section h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(5, 55, 97);
+}
+.card-section > .description{
+    font-size: 15px;
+    color: rgb(5, 55, 97);
+}
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.card{
+    width: 275px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  rgb(150, 150, 150);
+}
+.card:hover{
+    border: 1px solid chartreuse;
+    background-color: rgb(220, 253, 250);
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-description{
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+button
+{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+button:hover
+{
+    background-color: cyan;
+}
