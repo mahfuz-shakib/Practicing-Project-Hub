@@ -1,0 +1,107 @@
+body
+{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.hero-section
+{
+    background-image: linear-gradient(rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Banner-Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px;
+    margin-top: 50px;
+    border-radius: 1rem;
+}
+.hero-titles
+{
+    padding: 145px 344px;
+    text-align: center;
+    color: white;
+}
+.hero-titles>h4{
+    font-size: 2rem;
+}
+.hero-titles>h2{
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-top: -1.25rem;
+}
+
+main{
+    margin: 120px auto;
+}
+
+
+.discount-section
+{
+    max-width: 803px;
+    height: 806px;
+    margin: 0 auto;
+    text-align: center;
+}
+.discount-section>h2{
+    font-size: 5.5rem;
+    font-weight: bold;
+    color:rgba(255, 0, 0, 1);
+    margin:0 auto;
+}
+.discount-section>p{
+    font-size: 1.5rem;
+    color: rgba(255, 0, 0, 1);
+    font-weight: 600;
+}
+.discount-section>h4{
+    font-size: 3rem;
+    color:rgba(7, 2, 17, 1);
+    font-weight: bold;
+    margin-top: 0px;
+}
+.deal-img
+{
+    width: 100%;
+}
+
+
+.midnight-party
+{
+    margin-top: 120px;
+    background-image:linear-gradient(to right, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:75px;
+    padding: 67.5px 130px;
+}
+.welcome-title
+{
+    font-size:4rem;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: white;
+    margin-bottom: 20px;
+}
+.party-description{
+    font-size: 18px;
+    color:rgba(255, 255, 255, 0.8);
+}
+.party-join{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
